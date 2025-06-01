@@ -6,7 +6,7 @@
 
 ## 🎥 Here's the feel
 
-[🎬 Watch the demo video](https://github.com/theskinnyhippo/dizzy_linux/blob/main/src/demo.mp4)
+<video src="https://github.com/user-attachments/assets/4cd04201-f1db-41bb-9b05-796ab5da11af" controls autoplay loop width="100%"></video>
 
 > If it doesn't auto-play, click to open in a new tab or download the video.
 
