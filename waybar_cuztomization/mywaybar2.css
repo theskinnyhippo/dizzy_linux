@@ -2,7 +2,7 @@
     border: none;
     border-radius: 25px; /* Increased rounding */
     /* font-family: VictorMono, Iosevka Nerd Font, Noto Sans CJK; */
-    padding-left: 6px; 
+    padding-left: 0px; 
     
     font-family: "Maple Mono SC NF";
     font-size: 12px;
@@ -11,7 +11,7 @@
 }
 
 window#waybar {
-    background: rgba(0,0,0, 0.6); /*Removed blur */
+    background: rgba(0,0,10, 0.7); /*Removed blur */
 
     
     /*filter: blur(4px);*/
@@ -76,9 +76,11 @@ window#waybar {
     background-color: #db4b4b;
     border-radius: 25px; /* Rounded */
 
+    font-size: 20px;
+
     margin: 7px 6px 7px 3px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
 
 }
 
@@ -135,3 +137,98 @@ window#waybar {
 
 }
 
+/* my customisations */
+/* Common button style */
+#custom-striver,
+#custom-youtube,
+#custom-chess,
+#custom-gemini,
+#custom-chatgpt,
+#custom-whatsapp,
+#custom-instagram {
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 28px;   /* spacing */
+    margin: 0 3px;     /* gap between buttons */
+}
+
+/* Individual icons */
+#custom-striver {
+    /* background-image: url("./icons/brave.png"); */
+    /* font-family: serif; */
+    font-size: large;
+    font-weight:bolder;
+    min-width: 38px;
+}
+
+#custom-youtube {
+    background-size: 31px 31px;
+    background-image: url("./icons/youtube.png");
+}
+
+#custom-chess {
+    background-size: 40px 40px;
+    background-image: url("./icons/chess.png");
+}
+
+#custom-gemini {
+    background-size: 25px 25px;
+    background-image: url("./icons/gemini.png");
+}
+
+#custom-chatgpt {
+    background-size: 25px 25px;
+    background-image: url("./icons/chatgpt.png");
+}
+
+#custom-instagram {
+    background-image: url("./icons/ig.png");
+}
+
+#custom-whatsapp {
+    background-image: url("./icons/wp.png");
+}
+
+/* Default state */
+#custom-youtube,
+#custom-chess,
+#custom-gemini,
+#custom-chatgpt,
+#custom-whatsapp,
+#custom-instagram {
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 28px;
+    margin: 0 3px;
+    transition: background-size 0.2s ease-in-out;  /* smooth animation */
+}
+
+/* Hover states with bigger icons */
+#custom-youtube:hover {
+    background-size: 36px 36px;   /* was 31px */
+}
+
+#custom-chess:hover {
+    background-size: 46px 46px;   /* was 40px */
+}
+
+#custom-gemini:hover {
+    background-size: 30px 30px;   /* was 25px */
+}
+
+#custom-chatgpt:hover {
+    background-size: 30px 30px;   /* was 25px */
+}
+
+#custom-instagram:hover {
+    background-size: 25px 25px;   /* default not set, add on hover */
+}
+
+#custom-whatsapp:hover {
+    background-size: 25px 25px;   /* default not set, add on hover */
+}
+
+#custom-striver:hover {
+    font-size: large; /* since it’s text not image */
+}
