@@ -1,0 +1,46 @@
+{
+  // { ... prebuilt custom modules }, ---> then add these
+
+  "custom/striver": {
+      "format": " DSA ", 
+      "tooltip": "Striver a2z",
+      "on-click": "xdg-open https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2",
+      "interval": 0
+  },  
+  "custom/youtube": {
+      "format": " ", 
+      "tooltip": "Open YouTube",
+      "on-click": "xdg-open https://www.youtube.com",
+      "interval": 0
+  },  
+  "custom/chess": {
+      "format": " ",
+      "tooltip": "Open Chess.com",
+      "on-click": "xdg-open https://www.chess.com",
+      "interval": 0
+  },  
+  "custom/gemini": {
+      "format": " ",
+      "tooltip": "Open Gemini",
+      "on-click": "xdg-open https://gemini.google.com",
+      "interval": 0
+  },
+  "custom/chatgpt": {
+      "format": " ",
+      "tooltip": "ChatGPT",
+      "on-click": "xdg-open https://chat.openai.com",
+      "interval": 0
+  },
+  "custom/instagram": {
+      "format": " ",
+      "tooltip": "Instagram",
+      "on-click": "xdg-open https://instagram.com",
+      "interval": 0
+  },
+  "custom/whatsapp": {
+      "format": " ",
+      "tooltip": "Whatsapp",
+      "on-click": "xdg-open https://web.whatsapp.com/",
+      "interval": 0
+  }
+}
